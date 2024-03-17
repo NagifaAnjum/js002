@@ -1,0 +1,99 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>JS50</title>
+
+    <!-- css links -->
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css">
+  </head>
+
+  <body>
+    <div class="container">
+
+      <h1 class="p-3 mb-2 bg-warning text-dark">JavaScript Examples</h1>
+<br>
+      <!-- Text -->
+      <h3 class="text-success" id="txt"></h3>
+      <script>
+        document.getElementById('txt').innerHTML= "Some JavaScript Examples are given below:";
+      </script>
+<br>
+      <!-- variable -->
+      <!-- var sum -->
+      <h2 class="text-danger">Show the addition on button click</h2>
+      <button class="btn btn-dark" onclick="addition()">Calculation</button>
+      <h3 id="sum">Value</h3>
+<hr>
+
+ <!-- var sub -->
+      <h2 class="text-danger">Show the subtraction on button click</h2>
+      <button class="btn btn-dark" onclick="subtract()">Calculation</button>
+      <h3 id="sub">Value</h3>
+<hr>
+
+<!-- let multiply -->
+      <h2 class="text-danger">Show the multiplication on button click</h2>
+      <button class="btn btn-dark" onclick="multiplication()">Calculation</button>
+      <h3 id="multi">Value</h3>
+<hr>
+
+<!-- let division -->
+      <h2 class="text-danger">Show the division on button click</h2>
+      <button class="btn btn-dark" onclick="division()">Calculation</button>
+      <h3 id="divi">Value</h3>
+<hr>
+      <!-- show/hide html element -->
+      <h2 class="text-danger">Click the button to show/hide the element</h2>
+      <button class="btn btn-dark" ondblclick="textShow()">Show</button>
+      <button class="btn btn-dark" ondblclick="textHide()">Hide</button>
+      <h3 id="text">DOM Events allow JavaScript to add event listener or event handlers to HTML elements.</h3>
+<hr>
+      <!-- color change -->
+      <h2 class="text-danger">Click the button to change the color</h2>
+      <button class="btn btn-dark" onmouseover="colorChange()">Change Color</button>
+      <h3 id="c_c">Color Changes.</h3>
+<hr>
+      <!--bulb on/off-->
+      <h2 class="text-danger">Click the button to on/off the bulb</h2>
+      <button class="btn btn-dark" onclick="bulbOn()">Bulb On</button>
+      <button class="btn btn-dark" onclick="bulbOff()">Bulb Off</button>
+
+      <img id="bulb" src="images/off.gif" alt="">
+
+<hr>
+      <!-- show date -->
+      <h2 class="text-danger">Click the button to show the date</h2>
+      <button class="btn btn-dark" onclick="showDate()">Show Date</button>
+      <h3 id="s_d">Show date</h3>
+<hr>
+       <!-- text change -->
+      <h2 class="text-danger">Click the button to change the text</h2>
+      <button class="btn btn-dark" onclick="textChange()">Text change</button>
+      <h3 id="t_c">It's 2023</h3>
+<hr>   
+       <!-- text change using class name -->
+      <h2 class="text-danger">Click the button to change the text</h2>
+      <button class="btn btn-dark" onclick="txtChange()">Text change</button>
+      <h3 class="tt_c">Full stack web development online 60</h3>
+      <h3 class="tt_c">SSB-600</h3>
+<hr>
+       <!-- Length count using tag name -->
+      <h2 class="text-danger">Click the button to count the length</h2>
+      <button class="btn btn-dark" onclick="lengthCount()">Count</button>
+      <h4>HTML</h4>
+      <h4>CSS</h4>
+      <h4>Bootsrap</h4>
+      <h4>JavaScript</h4>
+      <h4>JQuery</h4>
+      
+    </div>
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>
